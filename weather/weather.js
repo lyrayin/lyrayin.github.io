@@ -20,7 +20,7 @@ $.getJSON(weatherAlertsUrl, function(data) {
   L.geoJSON(data, {
     // Color all alert polygons orange, but color Severe polygons red
     style: function(feature){
-      var alertColor = 'PaleGreen';
+      var alertColor = 'palegreen';
       if (feature.properties.severity === 'Minor') alertColor = 'orange';
       if (feature.properties.severity === 'Severe') alertColor = 'red';
       if (feature.properties.severity === 'Extreme') alertColor = 'purple';
