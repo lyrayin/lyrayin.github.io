@@ -6,4 +6,5 @@ This map shows real-time weather rader and alters from the National Weather Serv
 The url: <https://lyrayin.github.io/weather>
 
 ## Photo Map Tour
+A map of interesting locations of national parks with markers that the audience can click to dispaly details and photo.
 The Url: <https://lyrayin.github.io/photomap>
